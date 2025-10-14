@@ -1,0 +1,172 @@
+
+header{
+  background: url(/img/banner.jpg);
+  margin-top: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height:100vh;
+}
+
+body {
+  background-image: linear-gradient(135deg, #43CBFF 10%, #2e11d6 100%);
+}
+
+
+.navbar-nav .nav-item{
+  margin-right: 50px; /* Ajusta el valor para el espacio deseado */
+  margin-left: 50px;
+
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+  color: blue;
+  
+}
+.navbar-brand .ml-2 {
+  /* Agregar un margen en el lado izquierdo del texto */
+  margin-left: 30px;
+  font-family: "Roboto", sans-serif; 
+  font-size: 15px;
+}
+
+.navbar-brand .ml-2:hover{
+  color: blue;
+}
+.navbar-brand img {
+  border: 3px solid white; /* borde  */
+  height: 60px; /* Ajusta la altura del logo */
+  width: auto; /* Ajusta el ancho automáticamente */
+  border-radius: 50%; /* Hace que el borde sea circular */
+  overflow: hidden; /* Oculta el contenido que se salga del círculo */
+  margin: 0 auto;
+}
+
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .foto img {
+    border: 9px solid white; /* borde  */
+    border-radius: 50%;
+    margin: 20px; /* Ajusta el margen como desees */
+    max-width: 210px;
+  }
+
+.servicios {
+    width: 68%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: -50px;
+  }
+  .service img {
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+.icono-container {
+    position: fixed;
+    top: 300px; /* Ajusta el valor "top" para establecer la distancia desde la parte superior */
+    right: 20px; /* Ajusta el valor "right" para establecer la distancia desde la derecha */
+    z-index: 9999; /* Asegura que los iconos estén por encima del contenido de la página */
+    /* Alinea los iconos en una columna vertical */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para los iconos */
+.icono {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* Si deseas separarlos verticalmente, agrega un margen inferior */
+    margin-bottom: 10px;
+  }
+
+section{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .img-galeria {
+    width: 100%;
+    height: auto;
+  }
+}
+
+article {
+  background: url(/img/hmtl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  min-height: 60vh; /* Ajustamos la altura mínima para reducir el largo */
+}
+
+/* Estilo para el contenido del artículo */
+article .container {
+  padding: 0; /* Elimina el relleno del contenido para reducir el largo */
+}
+
+/* Estilo para la sección de servicios */
+article .servic {
+  /* Elimina el margen inferior para reducir el espacio */
+  margin-bottom: 0;
+}
+
+/* Estilo para el título de servicios */
+article #servicios {
+  margin-top: -100PX; /* Ajustamos el margen superior para subir el título */
+}
+
+/* Estilo para la sección con clase "article" */
+section.article {
+  background: url(/img/hmtl.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  min-height: 60vh; /* Ajustamos la altura mínima para reducir el largo */
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
