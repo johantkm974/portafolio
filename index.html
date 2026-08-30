@@ -1,304 +1,659 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <title>Mi Pagina</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Portafolio de Johan Joseph Vasquez Ricapa - Desarrollador Web Full Stack especializado en HTML, CSS, JavaScript y Bootstrap" />
+    <meta name="keywords" content="desarrollador web, front-end, back-end, portfolio, Johan Vasquez" />
+    <meta name="author" content="Johan Joseph Vasquez Ricapa" />
+    
+    <title>Johan Vasquez | Desarrollador Web</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-black navbar-dark fixed-top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="" target="_blank">
-          <img src="img/foto.png" alt="" width="80px" /><span class="ml-2">
-            Johan Joseph Vasquez Ricapa</span
-          ></a
-        >
-      </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="#">
+          <span class="brand-text">JV</span>
+          <span class="brand-name">Johan Vasquez</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div
-          class="collapse navbar-collapse d-lg-flex justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
+              <a class="nav-link active" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#perfil">Perfil</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#proyectos">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#servicios">servicios</a>
+              <a class="nav-link" href="#testimonios">Testimonios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactos">Contactame</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
+      </div>
     </nav>
-    <header>
-      <div class="container pt-5">
-        <div class="row">
-          <div class="foto">
-            <img src="img/foto.png" alt="img-foto" />
-          </div>
-          <div class="container">
-            <h2 class="text-center" style="color: white">Johan Vasquez</h2>
-            <p class="text-center" style="color: white">
-              Soy una persona fascinada por el mundo del diseño HTML y la
-              programación, y utilizo la herramienta Visual Studio Code para mis
-              proyectos.
-            </p>
-          </div>
-        </div>
-      </div>
-    </header>
-    <div class="icono-container">
-      <a href="https://www.facebook.com/profile.php?id=100093348597294" target="_blank">
-        <img class="icono" src="img/facebook.png" alt="Icono 1" />
-      </a>
 
-      <a href="https://twitter.com/" target="_blank">
-        <img class="icono" src="img/twiter.png" alt="Icono 2" />
-      </a>
-
-      <a
-        href="https://www.youtube.com/channel/UCeKArULWR2kJrxJPkUpZHhw"
-        target="_blank"
-      >
-        <img class="icono" src="img/youtube.png" alt="Icono 3" />
-      </a>
-    </div>
-
-    <main class="my-5">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-6 text-center">
-            <h2 class="mb-4" id="perfil">SOBRE MI</h2>
-            <p>
-              [Idat Ciclo IV] - [Enero 2022] a [actualidad]
-[Desarrollo de Sistemas de imformacion]
-            </p>
-            <p>Experiencia en el desarrollo y 
-              diseño de interfaces webmediante 
-              el uso de HTML, CSS ,JavaScript 
-              y implementación de frameworks 
-              como Bootstrap.</p>
-              <p>Realice un proyecto de escritorio usando 
-                el lenguaje de C# en el  tercer ciclo sobre 
-                una gestión de inventario de un negocio de ropa, 
-                 con el motor  de base sql server.</p>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <div class="servicios">
-      <div class="service">
-        <h3>Front-end</h3>
-        <img src="img/programacion-web.png" alt="Tutoriales Web" />
-            </div>
-        <div class="service">
-        <h3>Back End</h3>
-        <a href="https://tiendavirtual-production-88d4.up.railway.app" target="_blank">
-          <img src="img/diseno-web.jpg" alt="Diseño Web" />
-        </a>
-      </div>
-    </div>
-
-    <h3 class="text-center my-3 p-4" id="proyectos">Mis Proyectos</h3>
-<section class="container">
-  <div class="row">
-    <div class="col-md-4 col-sm-6 mb-2">
-      <a href="https://websiteacademiavasquez.000webhostapp.com/">
-      <img src="/proyecto/pro1.jpg" alt="" class="img-fluid img-galeria" />
-    </a>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <a href="https://spawesitea.000webhostapp.com">
-      <img src="/proyecto/pro2.jpg" alt="" class="img-fluid img-galeria" />
-    </a>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <a href="https://libroswebsitesh.000webhostapp.com/">
-      <img src="/proyecto/pro3.jpg" alt="" class="img-fluid img-galeria" />
-    </a>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <a href="https://miperuwebsitesa.000webhostapp.com/">
-      <img src="/proyecto/pro4.jpg" alt="" class="img-fluid img-galeria" />
-    </a>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <a href="https://tecnolowebsited.000webhostapp.com/">
-      <img src="/proyecto/pro5.jpg" alt="" class="img-fluid img-galeria" />
-    </a>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <a href="https://prueba565.000webhostapp.com">
-      <img src="/proyecto/pro10.jpg.png" alt="" class="img-fluid img-galeria" />
-    </a>
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <img src="/proyecto/pro7.jpg" alt="" class="img-fluid img-galeria" />
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <img src="/proyecto/pro8.jpg" alt="" class="img-fluid img-galeria" />
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <img src="/proyecto/pro9.jpg" alt="" class="img-fluid img-galeria" />
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <img src="/proyecto/pro10.jpg" alt="" class="img-fluid img-galeria" />
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <img src="/proyecto/pro11.jpg" alt="" class="img-fluid img-galeria" />
-    </div>
-    <div class="col-md-4 col-sm-6 mb-2">
-      <img src="/proyecto/pro12.jpg" alt="" class="img-fluid img-galeria" />
-    </div>
-</section>
-
-   <section class="article">
-      <article class="my-5 py-5">
-          <h1 style="text-align: center" id="servicios">Testimonios</h1>
-          <br>
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <h3 class="text-center">Persona1<i class="mv bi bi-pc"></i></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusantium quo mollitia sint maiores, voluptate, deserunt velit
-                natus, sunt ex laudantium quasi sed enim aspernatur quam in quos
-                nulla nostrum quis.
+    <!-- Hero Section -->
+    <header id="inicio" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6">
+            <div class="hero-text">
+              <p class="hero-greeting">Hola, soy</p>
+              <h1 class="hero-name">Johan Vasquez</h1>
+              <h2 class="hero-title">
+                <span class="typed-text"></span>
+                <span class="cursor">|</span>
+              </h2>
+              <p class="hero-description">
+                Desarrollador Web apasionado por crear interfaces modernas, funcionales y excepcionales. Especializado en front-end con HTML, CSS, JavaScript y Bootstrap.
               </p>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <h3 class="text-center">
-                Persona2 <i class="mv bi bi-eye-fill"></i>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusantium quo mollitia sint maiores, voluptate, deserunt velit
-                natus, sunt ex laudantium quasi sed enim aspernatur quam in quos
-                nulla nostrum quis.
-              </p>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-              <h3 class="text-center">
-                Persona3 <i class="mv bi bi-eye-fill"></i>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Accusantium quo mollitia sint maiores, voluptate, deserunt velit
-                natus, sunt ex laudantium quasi sed enim aspernatur quam in quos
-                nulla nostrum quis.
-              </p>
-            </div>
-          </div>
-      </article>
-    </section>
-    <div class="contactos my-5" id="contactos">
-      <h2 class="text-center">Contactame</h2>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h3 class="text-center">Dejame tu mensaje</h3>
-                <form action="https://formsubmit.co/johanvasqez4@gmail.com" method="POST">
-                  <p>Apellidos y Nombres</p>
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    placeholder="Ingresa tus nombres"
-                  />
-                  <br />
-                  <p>Celular</p>
-                  <input
-                    type="number"
-                    name="number"
-                    class="form-control"
-                    placeholder="Ingresa tu Celular"
-                  />
-                  <br />
-                  <p>Correo Electronico</p>
-                  <input
-                    type="email"
-                    name="email"
-                    class="form-control"
-                    placeholder="Ingrese su Email"
-                  />
-                  <br />
-                  <p>Comentarios</p>
-                  <textarea  name="comment" class="form-control"></textarea>
-                  <br />
-                  <button class="form-control bg-dark text-white">
-                    Enviar
-                  </button>
-                  <input type="hidden" name="_next" value="https://tutoswebsited.000webhostapp.com/">
-                  <input type="hidden" name="_captcha" value="false">
-                </form>
+              <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary-custom">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-outline-custom">Contactar</a>
+              </div>
+              <div class="hero-social">
+                <a href="https://www.facebook.com/profile.php?id=100093348597294" target="_blank" class="social-link">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="social-link">
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCeKArULWR2kJrxJPkUpZHhw" target="_blank" class="social-link">
+                  <i class="bi bi-youtube"></i>
+                </a>
+                <a href="https://github.com/" target="_blank" class="social-link">
+                  <i class="bi bi-github"></i>
+                </a>
               </div>
             </div>
           </div>
-      
-          <div class="col-lg-6 col-md-6 col-sm-6">
-            <div class="img-container">
-            <img src="/img/diseno-web.jpg" alt="" class="img-fluid ">
-          </div>
-          </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <div class="image-wrapper">
+                <img src="img/foto.png" alt="Johan Vasquez" class="profile-photo" />
+                <div class="image-decoration"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="scroll-indicator">
+        <a href="#perfil">
+          <i class="bi bi-chevron-double-down"></i>
+        </a>
+      </div>
+    </header>
 
-    <footer class="bg-black py-3 text-white text-center">
-      <p>Todos los Derechos Reservados a &copy; Johan Joseph Vasquez Ricapa</p>
+    <!-- Perfil Section -->
+    <section id="perfil" class="profile-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Sobre Mí</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="profile-image-container">
+              <img src="img/foto.png" alt="Johan Vasquez" class="profile-about-img" />
+              <div class="experience-badge">
+                <span class="years">3+</span>
+                <span class="text">Años de<br>Experiencia</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="profile-content">
+              <h3 class="profile-subtitle">Desarrollador Web Full Stack</h3>
+              <p class="profile-text">
+                Soy una persona fascinada por el mundo del diseño web y la programación. Actualmente cursando el ciclo IV en Idat, enfocado en el desarrollo de sistemas de información.
+              </p>
+              <p class="profile-text">
+                Cuento con experiencia en el desarrollo y diseño de interfaces web mediante el uso de HTML, CSS, JavaScript y la implementación de frameworks como Bootstrap.
+              </p>
+              <div class="profile-details">
+                <div class="detail-item">
+                  <i class="bi bi-mortarboard"></i>
+                  <div>
+                    <strong>Formación</strong>
+                    <p>Idat - Ciclo IV</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="bi bi-calendar-check"></i>
+                  <div>
+                    <strong>Período</strong>
+                    <p>Enero 2022 - Actualidad</p>
+                  </div>
+                </div>
+                <div class="detail-item">
+                  <i class="bi bi-code-slash"></i>
+                  <div>
+                    <strong>Especialidad</strong>
+                    <p>Desarrollo Web Full Stack</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#contacto" class="btn btn-primary-custom mt-3">
+                <i class="bi bi-download me-2"></i>Descargar CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Mis Servicios</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Soluciones digitales personalizadas para tu negocio</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-browser-chrome"></i>
+              </div>
+              <h3 class="service-title">Front-End</h3>
+              <p class="service-description">
+                Desarrollo de interfaces de usuario modernas, responsivas y atractivas usando HTML5, CSS3, JavaScript y frameworks como Bootstrap.
+              </p>
+              <ul class="service-features">
+                <li><i class="bi bi-check-circle"></i> HTML5 & CSS3</li>
+                <li><i class="bi bi-check-circle"></i> JavaScript</li>
+                <li><i class="bi bi-check-circle"></i> Bootstrap 5</li>
+                <li><i class="bi bi-check-circle"></i> Diseño Responsivo</li>
+              </ul>
+              <a href="https://tiendavirtual-production-88d4.up.railway.app" target="_blank" class="service-link">
+                Ver Ejemplo <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card featured">
+              <div class="service-icon">
+                <i class="bi bi-server"></i>
+              </div>
+              <h3 class="service-title">Back-End</h3>
+              <p class="service-description">
+                Desarrollo de lógica del servidor, bases de datos y APIs robustas para aplicaciones web escalables y seguras.
+              </p>
+              <ul class="service-features">
+                <li><i class="bi bi-check-circle"></i> C# & .NET</li>
+                <li><i class="bi bi-check-circle"></i> SQL Server</li>
+                <li><i class="bi bi-check-circle"></i> APIs REST</li>
+                <li><i class="bi bi-check-circle"></i> Bases de Datos</li>
+              </ul>
+              <a href="#" class="service-link">
+                Ver Proyecto <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="bi bi-phone"></i>
+              </div>
+              <h3 class="service-title">Diseño Web</h3>
+              <p class="service-description">
+                Creación de diseños web atractivos y funcionales centrados en la experiencia del usuario y la usabilidad.
+              </p>
+              <ul class="service-features">
+                <li><i class="bi bi-check-circle"></i> UI/UX Design</li>
+                <li><i class="bi bi-check-circle"></i> Wireframing</li>
+                <li><i class="bi bi-check-circle"></i> Prototipado</li>
+                <li><i class="bi bi-check-circle"></i> Responsive Design</li>
+              </ul>
+              <a href="#" class="service-link">
+                Ver Diseños <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos Section -->
+    <section id="proyectos" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Mis Proyectos</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Una selección de mis trabajos más recientes</p>
+        </div>
+        
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="frontend">Front-End</button>
+        </div>
+
+        <div class="row g-4 project-grid">
+          <div class="col-lg-4 col-md-6 project-item" data-category="web">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="proyecto/pro1.jpg" alt="Academia Website" class="img-fluid" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://websiteacademiavasquez.000webhostapp.com/" target="_blank" class="project-link">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="bi bi-info-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">Academia Website</h4>
+                <p class="project-category">Desarrollo Web</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 project-item" data-category="frontend">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="proyecto/pro2.jpg" alt="Spa Website" class="img-fluid" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://spawesitea.000webhostapp.com" target="_blank" class="project-link">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="bi bi-info-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">Spa Website</h4>
+                <p class="project-category">Front-End</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 project-item" data-category="web">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="proyecto/pro3.jpg" alt="Libros Website" class="img-fluid" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://libroswebsitesh.000webhostapp.com/" target="_blank" class="project-link">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="bi bi-info-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">Libros Website</h4>
+                <p class="project-category">Desarrollo Web</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 project-item" data-category="frontend">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="proyecto/pro4.jpg" alt="Mi Peru Website" class="img-fluid" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://miperuwebsitesa.000webhostapp.com/" target="_blank" class="project-link">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="bi bi-info-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">Mi Peru Website</h4>
+                <p class="project-category">Front-End</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 project-item" data-category="web">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="proyecto/pro5.jpg" alt="Tecnolo Website" class="img-fluid" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://tecnolowebsited.000webhostapp.com/" target="_blank" class="project-link">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="bi bi-info-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">Tecnolo Website</h4>
+                <p class="project-category">Desarrollo Web</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 project-item" data-category="frontend">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="proyecto/pro7.jpg" alt="Proyecto 7" class="img-fluid" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link">
+                      <i class="bi bi-box-arrow-up-right"></i>
+                    </a>
+                    <a href="#" class="project-link">
+                      <i class="bi bi-info-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h4 class="project-title">Proyecto 7</h4>
+                <p class="project-category">Front-End</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section id="testimonios" class="testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Testimonios</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Lo que dicen mis clientes sobre mi trabajo</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="bi bi-quote-left quote-icon"></i>
+                <p class="testimonial-text">
+                  Johan desarrolló nuestra página web académica con excelente calidad. Su atención al detalle y capacidad para entregar a tiempo fue impresionante. Totalmente recomendado.
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">
+                  <i class="bi bi-person-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h5 class="author-name">María García</h5>
+                  <p class="author-role">Directora Académica</p>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="bi bi-quote-left quote-icon"></i>
+                <p class="testimonial-text">
+                  Excelente trabajo en el diseño de nuestro sitio web de spa. Johan entendió perfectamente nuestras necesidades y creó una interfaz elegante y funcional.
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">
+                  <i class="bi bi-person-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h5 class="author-name">Carlos Mendoza</h5>
+                  <p class="author-role">Emprendedor</p>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="testimonial-card">
+              <div class="testimonial-content">
+                <i class="bi bi-quote-left quote-icon"></i>
+                <p class="testimonial-text">
+                  Johan es un desarrollador muy profesional. Creó nuestra plataforma de e-commerce con todas las funcionalidades que necesitábamos. Gran experiencia de trabajo.
+                </p>
+              </div>
+              <div class="testimonial-author">
+                <div class="author-avatar">
+                  <i class="bi bi-person-circle"></i>
+                </div>
+                <div class="author-info">
+                  <h5 class="author-name">Ana López</h5>
+                  <p class="author-role">Gerente de Proyectos</p>
+                </div>
+                <div class="testimonial-rating">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Contáctame</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">¿Tienes un proyecto en mente? Hablemos</p>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <div class="contact-info-card">
+              <h3 class="contact-info-title">Información de Contacto</h3>
+              <p class="contact-info-text">
+                No dudes en contactarme para discutir tu proyecto. Estoy aquí para ayudarte a hacer realidad tus ideas.
+              </p>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i class="bi bi-envelope"></i>
+                  <div>
+                    <strong>Email</strong>
+                    <p>johanvasqez4@gmail.com</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <div>
+                    <strong>Ubicación</strong>
+                    <p>Perú</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-clock"></i>
+                  <div>
+                    <strong>Disponibilidad</strong>
+                    <p>Lunes - Viernes, 9:00 AM - 6:00 PM</p>
+                  </div>
+                </div>
+              </div>
+              <div class="social-links-contact">
+                <a href="https://www.facebook.com/profile.php?id=100093348597294" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UCeKArULWR2kJrxJPkUpZHhw" target="_blank"><i class="bi bi-youtube"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="contact-form-card">
+              <form action="https://formsubmit.co/johanvasqez4@gmail.com" method="POST" class="contact-form">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="name" class="form-label">Nombre Completo</label>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="Tu nombre" required />
+                      <i class="bi bi-person form-icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="email" class="form-label">Correo Electrónico</label>
+                      <input type="email" name="email" id="email" class="form-control" placeholder="Tu email" required />
+                      <i class="bi bi-envelope form-icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="phone" class="form-label">Teléfono</label>
+                      <input type="tel" name="phone" id="phone" class="form-control" placeholder="Tu teléfono" />
+                      <i class="bi bi-telephone form-icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="subject" class="form-label">Asunto</label>
+                      <input type="text" name="subject" id="subject" class="form-control" placeholder="Asunto del mensaje" />
+                      <i class="bi bi-chat-left-text form-icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label for="message" class="form-label">Mensaje</label>
+                      <textarea name="comment" id="message" class="form-control" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                      <i class="bi bi-pencil form-icon"></i>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary-custom w-100">
+                      <i class="bi bi-send me-2"></i>Enviar Mensaje
+                    </button>
+                  </div>
+                </div>
+                <input type="hidden" name="_next" value="https://tutoswebsited.000webhostapp.com/">
+                <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h4 class="footer-brand">Johan Vasquez</h4>
+            <p class="footer-text">
+              Desarrollador Web apasionado por crear soluciones digitales innovadoras y efectivas.
+            </p>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/profile.php?id=100093348597294" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.youtube.com/channel/UCeKArULWR2kJrxJPkUpZHhw" target="_blank"><i class="bi bi-youtube"></i></a>
+              <a href="https://github.com/" target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+            <h5 class="footer-title">Navegación</h5>
+            <ul class="footer-links">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#perfil">Perfil</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4 mb-4 mb-md-0">
+            <h5 class="footer-title">Servicios</h5>
+            <ul class="footer-links">
+              <li><a href="#servicios">Front-End</a></li>
+              <li><a href="#servicios">Back-End</a></li>
+              <li><a href="#servicios">Diseño Web</a></li>
+              <li><a href="#servicios">Responsive Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h5 class="footer-title">Contacto</h5>
+            <ul class="footer-links">
+              <li><i class="bi bi-envelope me-2"></i>johanvasqez4@gmail.com</li>
+              <li><i class="bi bi-geo-alt me-2"></i>Perú</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="footer-copyright">
+              &copy; 2024 Johan Joseph Vasquez Ricapa. Todos los derechos reservados.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="footer-credits">
+              Diseñado con <i class="bi bi-heart-fill text-danger"></i> por Johan Vasquez
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
 
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
   </body>
 </html>
-
-
-
-
-
